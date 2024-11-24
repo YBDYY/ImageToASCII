@@ -23,20 +23,20 @@ This project converts an image into ASCII art that can be displayed directly in 
 
  Linux (Ubuntu/Debian):
 
-sudo apt-get update
-sudo apt-get install libopencv-dev
+```sudo apt-get update```
+```sudo apt-get install libopencv-dev```
 
 macOS:
 
-brew install opencv
+```brew install opencv```
 
 Windows: Follow the instructions in the OpenCV installation guide.   
 
 3. **Compile the code**
-   g++ -o image-to-ascii main.cpp `pkg-config --cflags --libs opencv4`
+   ```g++ -o image-to-ascii main.cpp `pkg-config --cflags --libs opencv4` ```
 
 4. **Run the Program**
-   ./image-to-ascii /path/to/your/image.jpg
+   ```./image-to-ascii /path/to/your/image.jpg```
 
 Replace /path/to/your/image.jpg with the actual path to the image you want to convert.
 
